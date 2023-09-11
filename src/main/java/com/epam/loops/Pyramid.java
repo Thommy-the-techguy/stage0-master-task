@@ -18,7 +18,7 @@ public class Pyramid {
                     + "%d".formatted(i)));
             current = new StringBuilder(i + current.toString() + i);
         }
-        System.out.println(stringBuilder);
+        System.out.println(stringBuilder.delete(stringBuilder.length() - 1, stringBuilder.length()));
     }
 
     public static void main(String[] args) {

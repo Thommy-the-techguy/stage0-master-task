@@ -14,7 +14,7 @@ public class HalfPyramid {
             result.append(spaces).append("*".repeat(i + 1)).append("\n");
             spaces.delete(0, 1);
         }
-        System.out.println(result);
+        System.out.println(result.delete(result.length() - 1, result.length()));
     }
 
     public static void main(String[] args) {
