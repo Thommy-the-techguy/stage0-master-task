@@ -4,7 +4,7 @@ public class HalfPyramid {
 
     public void printHalfPyramid(int cathetusLength) {
         if (cathetusLength == 0) {
-            System.out.println();
+            System.out.print("");
             return;
         }
         StringBuilder spaces = new StringBuilder();

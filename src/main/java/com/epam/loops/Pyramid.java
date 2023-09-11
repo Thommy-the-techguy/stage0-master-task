@@ -4,7 +4,7 @@ public class Pyramid {
 
     public void printPyramid(int cathetusLength) {
         if (cathetusLength == 0) {
-            System.out.println();
+            System.out.print("");
             return;
         }
         StringBuilder stringBuilder = new StringBuilder();
